@@ -1,0 +1,16 @@
+example scripts for gunpowder and neuroglancer
+
+* conda env create -f environment.yml
+
+1) convert data dir:
+  * download.sh fetches data
+  * create_zarrs.py example conversion to zarr
+  * view.py example viewing in neuroglancer
+
+2) pipeline dir:
+  * utils.py - utils taken from https://github.com/mehta-lab/microDL.git
+  * example_base_pipeline.py - example simple gunpowder pipeline
+  * view_batch.py - example batch viewing in neuroglancer
+  * example_view_aug_diffs.py - example gunpowder pipeline that will write out
+      pre aug data and post aug data
+  * view_batch_aug_diffs.py - example aug diff viewing in neuroglancer
